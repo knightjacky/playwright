@@ -1,0 +1,16 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "test engineer assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/test.spec.js --headed --project=chromium"
+  },
+  "keywords": [],
+  "author": "jacky yu",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  }
+}
